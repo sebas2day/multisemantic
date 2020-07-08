@@ -6,8 +6,8 @@ const dryRun = false;
 async function go() {
   try {
     const paths = [
-      `${__dirname}/packageA/package.json`,
       `${__dirname}/packageB/package.json`,
+      `${__dirname}/packageA/package.json`,
     ];
 
     paths.forEach(path => {

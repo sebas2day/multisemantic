@@ -5,7 +5,8 @@
 	"private": true,
   "workspaces": [
     "packageA",
-    "packageB"
+    "packageB",
+    "packageC"
   ],
   "scripts": {
     "release": "node ./release"

@@ -1,21 +1,16 @@
 {
-	"name": "@sebas2day/package-a",
+	"name": "non-released-package",
 	"publisher": "mocha",
-	"version": "1.1.3",
+	"version": "1.0.0",
 	"repository": {
 		"url": "https://github.com/sebas2day/multisemantic.git",
 		"type": "git",
 		"directory": "packageB"
 	},
-	"scripts": {
-		"postversion": "node ../scripts/set-dependency-versions packageB packageC"
-	},
 	"dependencies": {
-		"curry": "1.2.0",
-		"filter-obj": "2.0.1"
+		"@sebas2day/package-a": "1.1.3"
 	},
 	"devDependencies": {
-		"is-number": "7.0.0"
 	},
 	"peerDependencies": {},
 	"optionalDependencies": {}
