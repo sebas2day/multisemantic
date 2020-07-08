@@ -1,3 +1,3 @@
 // Package A
 await
-magic 
+magic aa
