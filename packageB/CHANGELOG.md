@@ -4,6 +4,10 @@
 
 ### Dependencies
 
+* **@sebas2day/package-a:** upgraded to 1.1.2
+
+### Dependencies
+
 * **@sebas2day/package-a:** upgraded to 1.1.1
 
 ### Dependencies
