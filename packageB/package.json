@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"map-obj": "4.1.0",
-		"@sebas2day/package-a": "1.1.0"
+		"@sebas2day/package-a": "1.1.1"
 	},
 	"devDependencies": {
 		"in-array": "0.1.2"
