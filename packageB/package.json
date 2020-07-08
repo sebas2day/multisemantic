@@ -1,10 +1,12 @@
 {
 	"name": "package-b",
 	"publisher": "mocha",
-	"version": "1.0.0",
-	"engines": {
-		"vscode": "*"
-	},
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/test/whatever.git",
+    "type": "git",
+    "directory": "packageB"
+  },
 	"dependencies": {
 		"map-obj": "4.1.0",
 		"package-a": "*"
