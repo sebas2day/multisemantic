@@ -8,7 +8,7 @@
 		"directory": "packageB"
 	},
 	"dependencies": {
-		"@sebas2day/package-a": "1.2.0"
+		"@sebas2day/package-a": "1.2.1"
 	},
 	"devDependencies": {
 	},
