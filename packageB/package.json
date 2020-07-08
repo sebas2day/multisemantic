@@ -3,7 +3,7 @@
 	"publisher": "mocha",
   "version": "1.0.0",
   "repository": {
-    "url": "https://github.com/test/whatever.git",
+    "url": "https://github.com/sebas2day/multisemantic..git",
     "type": "git",
     "directory": "packageB"
   },
