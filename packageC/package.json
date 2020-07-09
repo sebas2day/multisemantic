@@ -1,5 +1,6 @@
 {
-	"name": "non-released-package",
+  "name": "non-released-package",
+  "private": "true",
 	"publisher": "mocha",
 	"version": "1.0.0",
 	"repository": {
@@ -8,10 +9,10 @@
 		"directory": "packageB"
 	},
 	"dependencies": {
-		"@sebas2day/package-a": "1.2.1"
+		"@sebas2day/package-a": "1.2.2",
+		"dir-glob": "^3.0.1"
 	},
-	"devDependencies": {
-	},
+	"devDependencies": {},
 	"peerDependencies": {},
 	"optionalDependencies": {}
 }
