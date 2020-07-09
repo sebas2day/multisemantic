@@ -6,7 +6,7 @@
 	"repository": {
 		"url": "https://github.com/sebas2day/multisemantic.git",
 		"type": "git",
-		"directory": "packageB"
+		"directory": "packageC"
 	},
 	"dependencies": {
 		"@sebas2day/package-a": "1.2.2",
