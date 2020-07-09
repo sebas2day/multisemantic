@@ -8,14 +8,8 @@ async function go() {
     const paths = [
       `${__dirname}/packageB/package.json`,
       `${__dirname}/packageA/package.json`,
+      `${__dirname}/packageC/package.json`,
     ];
-
-    paths.forEach(path => {
-      const manifest = getManifest(path);
-      if (manifest.private) {
-        throw `${manifest} is marked private. Only non-private packages can be published.`
-      }
-    })
 
     await multirelease(paths, { dryRun });
   }
